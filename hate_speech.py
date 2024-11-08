@@ -18,6 +18,8 @@ print("Loading model...")
 model = tf.keras.models.load_model('hate_speech_model')
 print("Model loaded successfully.")
 
+# model.save('hate_speech_model.h5')
+
 # Load tokenizer
 print("Loading tokenizer...")
 with open('tokenizer.pickle', 'rb') as handle:
