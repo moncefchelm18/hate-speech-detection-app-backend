@@ -15,7 +15,7 @@ CORS(app)  # Enable CORS for all routes
 
 # Load the pre-trained model from the 'hate_speech_model' directory
 print("Loading model...")
-model = tf.keras.models.load_model('hate_speech_model')
+model = tf.keras.models.load_model('hate_speech_model.h5')
 print("Model loaded successfully.")
 
 # model.save('hate_speech_model.h5')
