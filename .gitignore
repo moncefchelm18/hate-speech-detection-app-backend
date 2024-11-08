@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Application specific
+hate_speech_detection_app/
+
+# Data files
+*.csv
+HateSpeechDataset.csv
+HateSpeechDatasetBalanced.csv
+labeled_data.csv
