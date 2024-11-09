@@ -20,3 +20,4 @@ hate_speech_detection_app/
 HateSpeechDataset.csv
 HateSpeechDatasetBalanced.csv
 labeled_data.csv
+.vercel

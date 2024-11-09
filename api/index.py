@@ -15,14 +15,14 @@ CORS(app)  # Enable CORS for all routes
 
 # Load the pre-trained model from the 'hate_speech_model' directory
 print("Loading model...")
-model = tf.keras.models.load_model('hate_speech_model.h5')
+model = tf.keras.models.load_model('api/hate_speech_model')
 print("Model loaded successfully.")
 
 # model.save('hate_speech_model.h5')
 
 # Load tokenizer
 print("Loading tokenizer...")
-with open('tokenizer.pickle', 'rb') as handle:
+with open('api/tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 print("Tokenizer loaded successfully.")
 

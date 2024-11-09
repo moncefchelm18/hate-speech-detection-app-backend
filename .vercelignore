@@ -1,0 +1,3 @@
+.vercelignore
+api/hate_speech_model/
+api/tokenizer.pickle
